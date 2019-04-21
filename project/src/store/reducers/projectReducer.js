@@ -13,6 +13,7 @@ const projectReducer = (state = initState, action) => {
       return state;
     case 'CREATE_PROJECT_ERROR':
       console.log('create project error', action.err);
+      break;
     default:
       return state;
   }
